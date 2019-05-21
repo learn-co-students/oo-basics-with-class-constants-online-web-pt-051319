@@ -17,5 +17,14 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+# <<<<<<< HEAD
+# =======
+#   def brand=(brand)
+#     @brand = brand
+#     if BRANDS.exclude?(brand)
+#     BRANDS << brand
+#   end 
+#   end
+# >>>>>>> 458b67809b20c9e581141a2bce171111f14182a9
 
 end
