@@ -1,10 +1,11 @@
 class Book
-  attr_accessor :author, :page_count, :genre
-  attr_reader :title
+  att_accessor :author, :page_count
+  GENRES = []
 
   def initialize(title)
     @title = title
   end
+  learn spec/01_book_spec.rb
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
